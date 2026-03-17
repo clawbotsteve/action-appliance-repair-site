@@ -1524,6 +1524,37 @@
       .confirm-summary { padding: 14px 14px; font-size: .85rem; }
     }
 
+    /* harden small-screen form usability */
+    @media (max-width: 768px) {
+      .booking-container,
+      .wizard-step,
+      .form-group,
+      .form-row {
+        min-width: 0;
+      }
+      .wizard-step {
+        overflow-x: hidden;
+      }
+      .btn-next,
+      .btn-back,
+      .btn-detect-location {
+        min-height: 44px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      input, select, textarea, button {
+        font-size: 16px;
+      }
+      .step-nav {
+        flex-direction: column;
+      }
+      .btn-next,
+      .btn-back {
+        width: 100%;
+      }
+    }
+
     </style>
     <link rel="canonical" href="https://actionappliancerepairphoenix.com/booking.html">
     <meta property="og:type" content="article">

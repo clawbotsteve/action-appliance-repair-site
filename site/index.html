@@ -1207,6 +1207,63 @@
             .footer h4 { font-size: .95rem; }
             .footer ul li a { font-size: .82rem; }
         }
+
+        /* ===== MOBILE LAYOUT SAFETY PASS ===== */
+        @media (max-width: 768px) {
+            .header .container,
+            .nav .container {
+                gap: 10px;
+            }
+            .header-right,
+            .nav-cta {
+                width: 100%;
+                justify-content: flex-start;
+                flex-wrap: wrap;
+            }
+            .nav-cta .btn {
+                min-width: 0;
+                width: 100%;
+                max-width: 100%;
+            }
+            .hero .container {
+                gap: 24px;
+            }
+            .find-us .container,
+            .join-team .container,
+            .why-us-grid,
+            .resource-grid,
+            .service-grid,
+            .appliance-cards,
+            .review-grid {
+                min-width: 0;
+            }
+            .zip-form {
+                flex-direction: column;
+                gap: 10px;
+                max-width: 100%;
+            }
+            .zip-form input,
+            .zip-form button {
+                width: 100%;
+                border-radius: var(--radius);
+            }
+            [class*='marquee'],
+            [class*='pill'],
+            .brands,
+            .service-areas {
+                max-width: 100%;
+                overflow-x: hidden;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 { font-size: 1.45rem; }
+            h2 { font-size: 1.3rem; }
+            p, li, a { word-wrap: break-word; overflow-wrap: anywhere; }
+            .hero-stats { flex-direction: column; align-items: stretch; }
+            .hero-stat + .hero-stat { border-left: none; border-top: 1px solid var(--gray-light); padding-top: 10px; margin-top: 10px; }
+            .process-step p { max-width: 100%; }
+        }
     </style>
     <link rel="canonical" href="https://actionappliancerepairphoenix.com/">
     <meta property="og:type" content="website">
