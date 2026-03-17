@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Action Appliance Repair | Phoenix, AZ</title>
+  <meta name="description" content="Contact Action Appliance Repair in Phoenix Metro. Book-first support, fast callbacks, and same-day service Monday through Saturday." />
+  <link rel="canonical" href="https://actionappliancerepairphoenix.com/contact.html" />
+
+  <!-- Analytics placeholders: replace with your real IDs -->
+  <!-- Google Tag Manager: GTM-XXXXXXX -->
+  <!-- Google Analytics 4 Measurement ID: G-XXXXXXXXXX -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} 
+    // gtag('js', new Date());
+    // gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--navy:#1B2A4A;--navy-dark:#0F1D35;--red:#C41230;--red-dark:#A30F28;--off:#F5F6F8;--line:#E6EAF1;--text:#334155}
+    *{box-sizing:border-box} body{margin:0;font-family:'Open Sans',sans-serif;background:linear-gradient(150deg,#0f1d35 0%,#1B2A4A 40%,#f5f6f8 40%,#f5f6f8 100%);color:var(--text)}
+    .container{max-width:1080px;margin:0 auto;padding:0 20px}
+    .top{padding:18px 0;color:#fff}.top-wrap{display:flex;justify-content:space-between;align-items:center;gap:12px}
+    .brand{font-family:Montserrat,sans-serif;font-weight:800;font-size:1.1rem}.top a{color:#fff;text-decoration:none;font-weight:700}
+    .hero{padding:22px 0 14px;color:#fff}.hero h1{font-family:Montserrat,sans-serif;font-size:2rem;margin:.2rem 0}.hero p{max-width:680px;opacity:.9}
+    .grid{display:grid;grid-template-columns:1.05fr .95fr;gap:20px;padding:18px 0 52px}
+    .card{background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 10px 30px rgba(15,23,42,.08)}
+    .card h2{font-family:Montserrat,sans-serif;color:var(--navy);font-size:1.2rem;margin:0 0 12px}
+    .info{padding:24px}.info .pill{display:inline-block;background:#fdecef;color:var(--red);font-weight:700;padding:6px 10px;border-radius:999px;font-size:.8rem;margin-bottom:10px}
+    .rows{display:grid;gap:10px}.row{padding:11px 0;border-bottom:1px solid var(--line)}.row:last-child{border-bottom:none}
+    .row a{text-decoration:none;color:var(--navy);font-weight:700}
+    .cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+    .btn{display:inline-block;background:var(--red);color:#fff;text-decoration:none;padding:11px 14px;border-radius:10px;font-weight:700}
+    .btn:hover{background:var(--red-dark)} .btn.alt{background:var(--navy)}
+    form{padding:24px;display:grid;gap:10px}
+    input,textarea{width:100%;padding:11px;border:1px solid #d7deea;border-radius:10px;font:inherit}
+    textarea{min-height:120px;resize:vertical}
+    button{border:none;background:var(--red);color:#fff;padding:12px 14px;border-radius:10px;font-weight:700;cursor:pointer}
+    #ok{display:none;margin:0 24px 20px;background:#e8f8ee;color:#0a7a31;padding:10px 12px;border-radius:10px;font-weight:700}
+    @media(max-width:860px){.grid{grid-template-columns:1fr}.hero h1{font-size:1.7rem}}
+  </style>
+</head>
+<body>
+  <header class="top">
+    <div class="container top-wrap">
+      <div class="brand">Action Appliance Repair</div>
+      <a href="tel:+14807168855">(480) 716-8855</a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Contact Our Phoenix Service Team</h1>
+      <p>Tell us what’s going on with your appliance and we’ll follow up quickly with next-step scheduling options.</p>
+    </div>
+  </section>
+
+  <main class="container">
+    <div class="grid">
+      <section class="card info">
+        <span class="pill">Fast Response</span>
+        <h2>Ways to Reach Us</h2>
+        <div class="rows">
+          <div class="row"><strong>Phone:</strong> <a href="tel:+14807168855">(480) 716-8855</a></div>
+          <div class="row"><strong>Hours:</strong> Monday-Saturday, 8:00 AM-6:00 PM</div>
+          <div class="row"><strong>Service Area:</strong> Phoenix Metro and surrounding communities</div>
+        </div>
+        <div class="cta">
+          <a class="btn" href="booking.html" id="bookNowLink">Book Online</a>
+          <a class="btn alt" href="index.html">Back to Home</a>
+        </div>
+      </section>
+
+      <section class="card">
+        <form id="contactForm">
+          <h2>Request Service</h2>
+          <input required name="name" placeholder="Full Name" />
+          <input required name="phone" placeholder="Phone Number" />
+          <input name="appliance" placeholder="Appliance Type (e.g., Refrigerator)" />
+          <input name="city" placeholder="City / ZIP" />
+          <textarea name="issue" placeholder="What issue are you having?"></textarea>
+          <input name="preferred" placeholder="Preferred Date/Time" />
+          <button type="submit">Send Request</button>
+        </form>
+        <p id="ok">Thanks! We received your request and will call/text you shortly.</p>
+      </section>
+    </div>
+  </main>
+
+  <script>
+    function trackEvent(eventName, payload) {
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push(Object.assign({ event: eventName, page: window.location.pathname }, payload || {}));
+    }
+
+    document.querySelectorAll('a[href^="tel:"]').forEach(function (link) {
+      link.addEventListener('click', function () {
+        trackEvent('call_click', { location: 'contact_page', phone: this.getAttribute('href') });
+      });
+    });
+
+    var bookNowLink = document.getElementById('bookNowLink');
+    if (bookNowLink) {
+      bookNowLink.addEventListener('click', function () {
+        trackEvent('book_click', { location: 'contact_page', href: 'booking.html' });
+      });
+    }
+
+    document.getElementById('contactForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      trackEvent('form_submit', { form: 'contact' });
+      document.getElementById('ok').style.display = 'block';
+      this.reset();
+    });
+  </script>
+</body>
+</html>
