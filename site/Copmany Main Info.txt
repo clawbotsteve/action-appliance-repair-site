@@ -1,0 +1,185 @@
+﻿Main Info
+
+
+Company Name: Action Appliance Repair
+Industry: Appliance Repair Service
+Office Address: Scottsdale, AZ 85254
+
+Unit type and Service Type that we provide:
+* Washer, Washer Repair
+* Dryer, Dryer Repair
+* Refrigerator, Refrigerator Repair
+* Oven, Oven Repair
+* Stove, Stove Repair
+* Stove Top, Stove Top Repair
+* Dishwasher, Dishwasher Repair
+Sub-types:
+* Freezer, Freezer Repair
+* Build-in Fridge, Build-in Fridge Repair
+* Ice maker, Ice Maker Repair
+* Vine Cooler, Vine Cooler Repair
+* Range, Range Repair
+* Double Oven, Double Oven Repair
+* Refrigerator Maintenance
+* Washer Maintenance
+* Dryer Maintenance
+* Dishwasher Maintenance
+* Ice Maker Maintenance
+* Oven Maintenance
+* Stove Maintenance
+
+
+Service We DON’T offer:
+* Microwave, Microwave Repair
+* Garbage Disposal, Garbage Disposal Repair
+
+
+Service Area:
+
+
+Phoenix, Scottsdale, Tempe, Mesa, Glendale, Peoria, Gilbert, Chandler, Goodyear, Avondale, Surprise, Paradise Valley, Fountain Hills, El Mirage, Tolleson, Litchfield Park, Buckeye, Queen Creek, Cave Creek, and Carefree
+
+Zip Codes:
+
+85201, 85202, 85203, 85204, 85205, 85206, 85208, 85209, 85210, 85212, 85213, 85250, 85251, 85254, 85255, 85256, 85257, 85258, 85259, 85260, 85262, 85266, 85301, 85302, 85303, 85304, 85305, 85306, 85307, 85308, 85310, 85345, 85381, 85382, 85281, 85282, 85283, 85284, 85323, 85392, 85338, 85395, 85396, 85142, 85374, 85379, 85387, 85388, 85353, 85340, 85331, 85268, 85351, 85373, 85335, 85363, 85375, 85003, 85004, 85006, 85007, 85008, 85009, 85012, 85013, 85014, 85015, 85016, 85017, 85018, 85019, 85020, 85021, 85022, 85023, 85024, 85027, 85028, 85029, 85031, 85032, 85033, 85034, 85035, 85037, 85040, 85041, 85042, 85043, 85044, 85045, 85048, 85050, 85051, 85053, 85054, 85083, 85085, 85224, 85225, 85248, 85286, 85233, 85234, 85295, 85296, 85297, 85298, 85253, 85377.
+
+
+
+
+Brands That We Service:
+
+
+Samsung, LG, Whirlpool, GE, GE Monogram, Viking, SubZero, Thermador, Jenn-Air, Maytag, Kenmore, Amana, KitchenAid, Frigidaire, Wolf, Miele, Hotpoint, Dacor, Bosch, Speed Queen, Cafe, Electrolux, Fisher & Paykel
+
+
+Service Call Fee:
+
+* $65 dollars , this fee is waived if customer decides to do the repair through our company
+
+
+Warranty:
+
+
+* For invoices < $500: 90 days warranty for parts and labor, if it's the same issue and the same part broke down, then we fix the unit at our own cost. If issue is different or same but different part is broken we charge customer price part only (of course we will make some money here)
+* For invoices > $500: 150 days warranty for parts and labor, if it's the same issue and the same part broke down, then we fix the unit at our own cost. If issue is different or same but different part is broken we charge customer price part only (of course we will make some money here)
+* Extended Appliance Warranty Available: Customer can purchase a maintenance plan for his Appliances that will cost $119-$350 a year , that will include 2 yearly maintenance of all Appliances, $50 deductible for a service call and repair, we cover everything except Control Boards  ($50 core), Sealed System ($600 core), Bearing / Transmission / Gear Case in Washers.
+
+
+
+
+Financing Options: Not Available 
+
+Payment Methods:
+
+* Credit, Debit Card
+* Apple Pay, Google Pay
+* Cash
+
+
+
+Tools We Use in our Appliance Repair Business:
+
+* House Call Pro ( CRM system, communicating platform )
+* Ring Central ( business phone number )
+* Thumbtack Pro App / Web ( lead generator, communicating platform )
+* Google Ads, Guarantee, Local, Maps, SEO ( lead generating )
+* Email ( some leads come from email )
+* Yelp ( lead generator ) 
+* Amazon ( parts order )
+* Fedex ( track parts delivery’s )
+* Telegram ( communication with techs, live updates on schedule, route photos, q&a regarding jobs )
+
+
+
+
+
+
+
+
+
+
+
+
+Goals and Step By Step Plan.
+
+Phase 1. (March-April)
+
+Create a strong and sustainable lead generator for COD jobs in Scottsdale , Paradise Valley, Tempe, Mesa, Gilbert, Chandler .
+I’ll be a tech who will be doing those jobs. I can get good reviews fast for us and focus on building a good reputation , meanwhile we should be working on building landings for other Phoenix Metro Areas.
+
+In April we should at least close 100 jobs that we generate through Google Ads, Google Guarantee and Google SEO 
+
+Google “Appliance Repair in Scottsdale” and pretty much everyone you see on the first page are our competitors. 
+
+By the end of April we have to have:
+* Best SEO driven website in PHX area
+* At least 100 reviews on Google Profile with rating 4.9 
+* Have a platform that is fully ready to be scaled to different cities so we can sell leads to Appliance Repair Contractors in different cities. 
+* By the end of April at least 5 jobs a day should be scheduled  by our office (or Ai driven system) (cost per client should be less then $60)
+* Avg profit per COD jobs should be ~$50 (100 jobs ~ $5,000 profit)
+* Become Top Pro in Thumbtack Pro and book and least 3 jobs a day from this lead generator (price ber client should be <$50) (at least 100 reviews with 4.9 rating)
+
+
+Create a fully (or partial) AI driven system that would be able:
+* Text/Call clients to set up the appointment (make a Dispatch Ai agent, fill him with as much information as possible, so it can talk with the customer like a real human)
+* Agent will check routes for techs for all the scheduled jobs in House Call Pro and find best available time slot for our customer and create a job in CRM + tech assign
+* After job is created and assigned to a tech , tech will go on the job, write a report in notes, leave part numbers for parts that needs to be ordered, apply a correct job tag in CRM system and then office will order parts
+* As soon as parts will be delivered office employee will apply a “Ready To Schedule”  tag in CRM for a job, and then agent (robot) will automatically find a time slot for a repair appointment and schedule a job for assigned  technician
+* After tech is done with the repair he will apply “Finished COD” tag to the job, and system will automatically add this job to a spread sheet where it will fill “customer name” “address” “invoice amount” “parts price” “paid to tech” “profit” so we will be keeping a track of all the numbers
+
+KPI’s that needs to be tracked by Agent (robot)
+   * Amount cod jobs, property management jobs closed a month
+   * Company Revenue this month
+   * Avg invoice amount $
+   * Profit per job after all the expenses 
+   * Avg lead cost (every 2 weeks)
+   * Avg client cost (every 2 weeks)
+   * Conversion Rate (leads to clients)
+   * Recall Rate % to closed jobs a month
+   * Service call % to closed jobs a month
+   * Office expenses per job (office employees salaries, subscriptions on tools, insurance and ect.)
+
+
+Goal: Automate everything that we can except the part order process.
+
+
+Goal’s by 30th of April:
+   * 200 cod jobs completed (avg profit $50)
+   * $10,000 profit , $3,500 to Mark, $3,500 to Beau 
+   * $1,000 investments, $1,000 taxes, $1,000 stays on Bank Account
+   * AI fully (partially) self driven system
+   * KPI’s automatically counted in google sheet
+
+
+
+
+Phase 2. (May-June)
+
+Fully automated and sustainable models need to be scaled . 
+In May we should deliver at least 500 leads for Appliance Repair Contractors (providers).
+
+Each sold lead (client?)  should at least make us $20-$30 profit , math should look like this:
+   * 500 leads (clients) sold
+   * Avg price per lead (client?)  for contractor should not exceed $35 per lead and $75 per client
+   * Profit is $20 per lead minimum 
+   * ~ $10,000 profit by the end of June from our lead generating platform 
+
+
+Our best strategy is finding cities with the least competitive market for Appliance Repair and scale this city with one-two chosen appliance repair contractors
+The goal is to make a system that would crack Google Ads (SEO) and become a lead generating platform for contractors around the US.
+
+At the same time start thinking about growing this lead generator platform in different Home Service Industries in the US like HVAC, Plumbing, Electrical, Handyman and ect.
+
+
+Action Appliance Repair should close about:
+   * 300 COD jobs with avg profit $50 per job
+   * 300 PM jobs (property management) with avg profit $35 per job
+   * ~ $25,000 profit a month company should make in June
+
+
+At the same time in May-June the company is focused on finding and training Appliance Repair Tech that can work on Commercial Appliances . We should have 1 master tech in our company that we would pay very well and he will be working on most difficult and high ticket jobs
+   * In June Action Appliance Repair need to close at least 50 commercial appliance repair jobs
+   * Avg profit $100 per job, ~ $5,000 profit for a company 
+
+
+Goal: ~ $40,000 profit from Appliance Repair Company and Lead Generator

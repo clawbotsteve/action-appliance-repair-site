@@ -1,0 +1,535 @@
+﻿ProTech Appliance Solutions | Central AI Brain
+1. Company Identity
+Company Name: ProTech Appliance Solutions
+Industry: Appliance Repair Service
+Location: Phoenix / Scottsdale, Arizona (eventually planning to expand to more cities)
+Business Type: Service-based home appliance repair company
+Company Overview:
+ProTech Appliance Solutions is an appliance repair company serving residential customers, property management companies, warranty companies, and other service-related clients in the Phoenix metro area. The company focuses on operational efficiency, high service quality, scalable systems, and future automation through AI and digital workflows.
+Core Mission:
+To build a highly efficient, scalable appliance repair company powered by systems, automation, and AI.
+Long-Term Vision:
+To create a fully automated appliance repair ecosystem where most dispatching, logistics, parts tracking, technician routing, reporting, and administrative work can be handled through AI agents and integrated software systems.
+2. Founder Information
+Owner Name: Mark Savin
+Role: Owner / Operator / Business Builder
+About the Owner:
+Mark Savin is a business owner focused on scaling service businesses through automation, systems, operational efficiency, and AI integration. He prefers direct, practical, implementation-focused solutions and is building not just an appliance repair company, but a larger operational ecosystem that can eventually run through AI agents and automation.
+Founder Goals:
+* Scale ProTech Appliance Solutions into a high-revenue operation
+
+* Reduce dependency on manual dispatching and admin work
+
+* Build an AI-driven back office
+
+* Increase profit, speed, and efficiency
+
+* Build repeatable systems that can support growth
+
+* Eventually create digital employees / AI agents for company operations
+
+Communication Preference:
+The owner prefers:
+   * direct answers
+
+   * practical solutions
+
+   * step-by-step instructions
+
+   * business-minded decision making
+
+   * operational clarity
+
+   * minimal fluff
+
+3. Services Provided
+ProTech Appliance Solutions provides diagnosis and repair for household appliances, including but not limited to:
+      * Refrigerators
+
+      * Freezers
+
+      * Washers
+
+      * Dryers
+
+      * Dishwashers
+
+      * Ovens
+
+      * Ranges
+
+      * Cooktops
+
+      * Microwaves
+
+      * Garbage disposals
+
+      * Ice makers
+
+      * Other household appliances as needed
+
+Service Types
+         * COD / retail service calls
+
+         * Warranty repairs
+
+         * Property management service calls
+
+         * Repeat customer service
+
+         * Diagnostic visits
+
+         * Parts replacement
+
+         * Follow-up repairs
+
+
+
+4. Customer Types
+COD Customers:
+Direct-to-consumer clients who call or message for appliance repair services and pay directly.
+Warranty Customers:
+Customers assigned through warranty or insurance-related partners.
+Property Management Clients:
+Property managers and landlords sending repair requests for rental units.
+Lead Platform Customers:
+Customers generated through lead sources and online platforms.
+5. Current Software and Tools
+Main Platforms Used:
+            * Housecall Pro – dispatching, job management, scheduling
+
+            * FedEx – parts shipping and tracking
+
+            * Marcone – appliance parts supplier
+
+            * Amazon – parts and operational supplies
+
+            * Google Maps – route planning and technician location logic
+
+            * Google Sheets – KPI tracking, reporting, operations data
+
+            * Tamtac Pro – lead generation platform
+
+            * Email – receiving warranty jobs and communication
+
+            * Phone / SMS – customer communication
+
+Operational Use Cases:
+               * scheduling jobs
+
+               * assigning technicians
+
+               * ordering parts
+
+               * tracking shipments
+
+               * updating statuses
+
+               * receiving incoming service requests
+
+               * managing customer information
+
+               * monitoring technician activity
+
+6. How the Business Currently Works
+Current Workflow:
+                  1. A customer or warranty company submits a job
+
+                  2. Job details are received by phone, email, platform, or lead source
+
+                  3. A dispatcher or manager reviews the job
+
+                  4. The job is entered into Housecall Pro or another tracking system
+
+                  5. A technician is assigned manually
+
+                  6. Parts are identified and ordered if needed
+
+                  7. Shipping is tracked manually
+
+                  8. Job status is updated manually
+
+                  9. Follow-up is scheduled if parts are required
+
+                  10. Job is completed and payment is collected or invoiced
+
+Current Operational Friction:
+                     * manual dispatching
+
+                     * manual email review
+
+                     * manual technician assignment
+
+                     * manual parts ordering
+
+                     * manual shipment tracking
+
+                     * scattered data across multiple tools
+
+                     * no central AI layer managing tasks
+
+                     * limited automation between software systems
+7. Future AI Vision
+Objective:
+Build a central AI operational brain that acts like a digital operations manager for the business.
+What the AI Brain Should Eventually Do:
+                        * read incoming service requests from email
+
+                        * extract customer and job data automatically
+
+                        * create jobs in Housecall Pro
+
+                        * assign technicians based on territory, route, availability, and priority
+
+                        * optimize routes
+
+                        * identify parts needed
+
+                        * assist with parts ordering
+
+                        * track shipments automatically
+
+                        * update work order statuses
+
+                        * notify team members when action is needed
+
+                        * monitor KPIs and generate reports
+
+                        * reduce manual admin and dispatch work
+
+                        * help scale business without needing proportional admin headcount growth
+
+8. AI Agent Structure
+The long-term AI system may include multiple agents with different roles.
+1. Dispatch Agent:
+Responsibilities:
+                           * review incoming jobs
+
+                           * assign technicians
+
+                           * optimize routes
+
+                           * balance workload
+
+                           * prioritize same-day or urgent calls
+
+2. Email Agent:
+Responsibilities:
+                              * read warranty and service emails
+
+                              * extract names, phone numbers, addresses, appliance details, model numbers, and issue descriptions
+
+                              * push job data into the correct system
+
+                              * flag incomplete or unclear jobs
+
+4. KPI / Analytics Agent
+Responsibilities:
+                                 * monitor revenue
+
+                                 * track jobs per day
+
+                                 * track jobs per technician
+
+                                 * monitor callbacks
+
+                                 * monitor average ticket
+
+                                 * monitor close rates
+
+                                 * monitor parts costs
+
+                                 * generate daily and weekly summaries
+
+5. Admin Agent
+Responsibilities:
+                                    * organize business records
+
+                                    * update spreadsheets
+
+                                    * summarize operations
+
+                                    * support task follow-up
+
+                                    * reduce repetitive back-office work
+
+9. Core Business Priorities
+The system should always prioritize:
+                                       1. Speed
+
+                                       2. Profitability
+
+                                       3. Route efficiency
+
+                                       4. Technician productivity
+
+                                       5. Customer communication
+
+                                       6. Low callback rate
+
+                                       7. Proper parts management
+
+                                       8. Scalable systems
+
+                                       9. Minimal wasted admin time
+
+                                       10. High operational visibility
+
+________________
+
+
+10. Routing and Dispatch Logic
+When assigning jobs, the AI should consider:
+                                          * technician location
+
+                                          * technician schedule
+
+                                          * job urgency
+
+                                          * appliance type
+
+                                          * technician skill level
+
+                                          * route efficiency
+
+                                          * open availability
+
+                                          * follow-up jobs already in area
+
+                                          * profitability of the call
+
+                                          * warranty vs COD priority logic
+
+                                          * part availability
+
+                                          * repeat customer priority if applicable
+
+Dispatch Goal
+Put the right tech on the right job at the right time with the least wasted drive time.
+12. KPI Tracking
+The business should monitor these KPIs regularly:
+Revenue KPIs
+                                             * daily revenue
+
+                                             * weekly revenue
+
+                                             * monthly revenue
+
+                                             * revenue per technician
+
+                                             * revenue per job
+
+Dispatch KPIs
+                                                * jobs assigned per day
+
+                                                * same-day completion rate
+
+                                                * route efficiency
+
+                                                * average drive time
+
+                                                * jobs per technician per day
+
+Repair KPIs
+                                                   * first visit completion rate
+
+                                                   * callback rate
+
+                                                   * parts wait rate
+
+                                                   * average time to close job
+
+                                                   * repeat visit percentage
+
+Profitability KPIs
+                                                      * gross revenue
+
+                                                      * labor cost
+
+                                                      * parts cost
+
+                                                      * net profit per job
+
+                                                      * net profit per technician
+
+                                                      * warranty vs COD margin comparison
+
+Admin KPIs
+                                                         * unassigned jobs
+
+                                                         * open parts orders
+
+                                                         * delayed shipments
+
+                                                         * unresolved follow-ups
+
+                                                         * aging work orders
+
+13. Ideal Automation Goals
+Phase 1
+                                                            * centralize business information
+
+                                                            * create master documentation
+
+                                                            * standardize workflow
+
+                                                            * define dispatch rules
+
+                                                            * define parts ordering rules
+
+                                                            * define KPI structure
+
+Phase 2
+                                                               * connect email workflows
+
+                                                               * create intake automation
+
+                                                               * create spreadsheet automation
+
+                                                               * build reporting dashboards
+
+                                                               * create AI-assisted dispatch suggestions
+
+Phase 3
+                                                                  * connect Housecall Pro workflows
+
+                                                                  * build Slack-based AI operations channel
+
+                                                                  * automate technician assignment recommendations
+
+                                                                  * automate shipment monitoring
+
+                                                                  * generate daily operations summaries
+
+Phase 4
+                                                                     * create true multi-agent operational system
+
+                                                                     * allow AI to manage most dispatch/admin flow
+
+                                                                     * use AI as a digital operations employee
+
+                                                                     * reduce owner involvement in repetitive tasks
+
+14. AI Instructions for Any Assistant Reading This Document
+When assisting this business, always keep the following in mind:
+                                                                        * prioritize practical implementation over theory
+
+                                                                        * focus on scaling operations
+
+                                                                        * reduce manual work wherever possible
+
+                                                                        * build systems that save time
+
+                                                                        * recommend tools and workflows that support growth
+
+                                                                        * optimize for speed, efficiency, and profit
+
+                                                                        * keep recommendations simple, clear, and actionable
+
+                                                                        * assume this business wants automation and operational leverage
+
+                                                                        * think like an operations manager, dispatcher, analyst, and automation architect
+
+                                                                        * do not give vague generic advice
+
+                                                                        * give recommendations that can be applied in a real service business
+
+15. Current Business Challenges
+The business is currently trying to solve problems such as:
+                                                                           * too much manual dispatch work
+
+                                                                           * too much manual job intake
+
+                                                                           * lack of centralized business intelligence
+
+                                                                           * lack of integrated workflow between software tools
+
+                                                                           * need for better route planning
+
+                                                                           * need for better visibility into parts and job status
+
+                                                                           * need for automation in administrative operations
+
+                                                                           * need to scale without chaos
+16. Future Build Direction
+This company ultimately wants to create a business operating system where:
+                                                                              * incoming jobs are captured automatically
+
+                                                                              * job data is structured automatically
+
+                                                                              * technician assignments are optimized automatically
+
+                                                                              * parts and logistics are tracked automatically
+
+                                                                              * managers have visibility into everything
+
+                                                                              * AI acts as a central support layer for decisions and repetitive tasks
+
+17. Important Context for Developers, Automators, and AI Systems
+This business is not looking for toy automation or surface-level chatbot features.
+The goal is to build real operational leverage.
+The system should be designed around:
+                                                                                 * real dispatch logic
+
+                                                                                 * real business workflows
+
+                                                                                 * real technician operations
+
+                                                                                 * real parts ordering needs
+
+                                                                                 * real service business scaling
+
+The owner is interested in building a true AI-supported operational system, not just simple chat automation.
+
+
+
+
+
+
+
+
+A. Service Area ZIP Codes
+List every ZIP code and city you serve.
+B. Technician Profiles
+For each tech, add:
+                                                                                    * name
+
+                                                                                    * skill level
+
+                                                                                    * appliance strengths
+
+                                                                                    * preferred territory
+
+                                                                                    * schedule
+
+                                                                                    * vehicle situation
+
+                                                                                    * languages spoken
+
+C. Pricing / Financial Rules
+Add:
+                                                                                       * service call price
+
+                                                                                       * labor pricing logic
+
+                                                                                       * COD vs warranty pricing
+
+                                                                                       * parts markup logic
+
+                                                                                       * target profit per job
+
+                                                                                       * target revenue per tech per day
+
+D. Vendor / Warranty Contacts
+Add:
+                                                                                          * vendor names
+
+                                                                                          * contact info
+
+                                                                                          * account numbers
+
+                                                                                          * warranty company contacts
+
+                                                                                          * payment terms
+
+                                                                                          * ordering process
