@@ -133,6 +133,12 @@
         .dropdown-heading { padding: 8px 20px 4px; font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-light, #94a3b8); }
         .dropdown-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0; padding: 0; }
         .dropdown-grid .dropdown-item { padding: 8px 16px; font-size: 0.82rem; }
+
+        .nav-links > li { position: relative; }
+        .nav-links li:hover > .dropdown { display: block; }
+        .nav-links li:hover > a .arrow { transform: rotate(180deg); }
+        .nav-links > li:nth-last-child(-n+3) .dropdown { left: auto; right: 0; }
+
         .menu-toggle { display: none; background: none; border: 1px solid var(--border); color: var(--navy); padding: 8px 14px; border-radius: 6px; font-size: 0.9rem; font-weight: 600; cursor: pointer; }
 
         /* ===== HERO ===== */
