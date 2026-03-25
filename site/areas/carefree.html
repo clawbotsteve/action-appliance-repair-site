@@ -6,14 +6,14 @@
     <title>Appliance Repair Carefree AZ | Action Appliance Repair</title>
     <meta name="description" content="Same-day appliance repair in Carefree, AZ. Refrigerator, washer, dryer, dishwasher, oven & more. $65 diagnostic waived with repair. Call (480) 716-8855.">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://actionappliancerepairaz.com/areas/carefree.html">
+    <link rel="canonical" href="https://actionappliancerepairphoenix.com/areas/carefree.html">
 
     <!-- Open Graph -->
     <meta property="og:title" content="Appliance Repair Carefree AZ | Action Appliance Repair">
     <meta property="og:description" content="Fast, reliable appliance repair in Carefree, AZ. Same-day service, $65 diagnostic waived with repair. Call (480) 716-8855.">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_US">
-    <meta property="og:url" content="https://actionappliancerepairaz.com/areas/carefree.html">
+    <meta property="og:url" content="https://actionappliancerepairphoenix.com/areas/carefree.html">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,11 +25,11 @@
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "@id": "https://actionappliancerepairaz.com/#business",
+      "@id": "https://actionappliancerepairphoenix.com/#business",
       "name": "Action Appliance Repair",
-      "image": "https://actionappliancerepairaz.com/web-main.png",
+      "image": "https://actionappliancerepairphoenix.com/web-main.png",
       "telephone": "+1-480-716-8855",
-      "url": "https://actionappliancerepairaz.com",
+      "url": "https://actionappliancerepairphoenix.com",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Scottsdale",
@@ -402,7 +402,7 @@
         <div class="topbar-left">Serving Carefree &amp; Phoenix Metro &bull; Mon&ndash;Sat Same-Day/Next-Day</div>
         <div class="topbar-right">
             <a href="tel:+14807168855">&#9742; (480) 716-8855</a>
-            <a href="mailto:info@actionappliancerepairaz.com">&#9993; Email Us</a>
+            <a href="mailto:actionappliancefix@gmail.com">&#9993; Email Us</a>
         </div>
     </div>
 </div>
@@ -770,7 +770,7 @@
                 <div class="footer-addr">
                     Scottsdale, AZ 85254<br>
                     <a href="tel:+14807168855">(480) 716-8855</a><br>
-                    <a href="mailto:info@actionappliancerepairaz.com">info@actionappliancerepairaz.com</a><br>
+                    <a href="mailto:actionappliancefix@gmail.com">actionappliancefix@gmail.com</a><br>
                     Mon&ndash;Sat &bull; Same-Day/Next-Day Available
                 </div>
             </div>
@@ -1002,7 +1002,7 @@
     function wizSelectSlot(el){document.querySelectorAll('.wiz-slot').forEach(function(c){c.classList.remove('selected');});el.classList.add('selected');wizState.slot=el.dataset.slot;}
     function wizBuildCalendar(){var strip=document.getElementById('wiz-calendar');strip.innerHTML='';var days=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];var months=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];for(var i=0;i<7;i++){var d=new Date();d.setDate(d.getDate()+i+1);var el=document.createElement('div');el.className='wiz-cal-day';el.dataset.date=d.toISOString().split('T')[0];el.innerHTML='<span class="day-name">'+days[d.getDay()]+'</span><span class="day-date">'+d.getDate()+'</span><span class="day-month">'+months[d.getMonth()]+'</span>';el.onclick=function(){document.querySelectorAll('.wiz-cal-day').forEach(function(c){c.classList.remove('selected');});this.classList.add('selected');wizState.date=this.dataset.date;};strip.appendChild(el);}}
     document.getElementById('wiz-detect').addEventListener('click',function(){var fb=document.getElementById('wiz-loc-fb');if(!navigator.geolocation){fb.textContent='Geolocation not supported.';fb.style.color='#DC2626';return;}fb.textContent='Detecting...';fb.style.color='var(--text-light)';navigator.geolocation.getCurrentPosition(function(pos){fb.textContent='\u2705 Location detected!';fb.style.color='#16a34a';wizState.city='Detected';wizState.zip='auto';},function(){fb.textContent='Unable to detect. Please enter ZIP.';fb.style.color='#DC2626';});});
-    function wizSubmit(){var fields=['wiz-fname','wiz-lname','wiz-address','wiz-email','wiz-phone'];var valid=true;fields.forEach(function(id){var el=document.getElementById(id);if(!el.value.trim()){wizFlash(el);valid=false;}});if(!valid)return;var em=document.getElementById('wiz-email');if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em.value.trim())){wizFlash(em);return;}wizState.fname=document.getElementById('wiz-fname').value.trim();wizState.lname=document.getElementById('wiz-lname').value.trim();wizState.address=document.getElementById('wiz-address').value.trim();wizState.email=em.value.trim();wizState.phone=document.getElementById('wiz-phone').value.trim();wizState.sms=document.getElementById('wiz-sms').checked;var dateObj=new Date(wizState.date+'T12:00:00');var niceDate=dateObj.toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric',year:'numeric'});document.getElementById('wiz-summary').innerHTML='<strong>Name:</strong> '+wizState.fname+' '+wizState.lname+'<br>'+'<strong>Address:</strong> '+wizState.address+'<br>'+'<strong>Phone:</strong> '+wizState.phone+'<br>'+'<strong>Email:</strong> '+wizState.email+'<br><br>'+'<strong>Appliance:</strong> '+wizState.appliance+(wizState.brand?' ('+wizState.brand+')':'')+'<br>'+(wizState.desc?'<strong>Issue:</strong> '+wizState.desc+'<br>':'')+'<br><strong>Date:</strong> '+niceDate+'<br>'+'<strong>Time:</strong> '+wizState.slot;var fd=new FormData();fd.append('_subject','New Booking from Website Wizard');fd.append('_captcha','false');fd.append('first_name',wizState.fname);fd.append('last_name',wizState.lname);fd.append('phone',wizState.phone);fd.append('email',wizState.email);fd.append('address',wizState.address);fd.append('zip',wizState.zip);fd.append('appliance',wizState.appliance);fd.append('brand',wizState.brand);fd.append('issue',wizState.desc);fd.append('date',wizState.date);fd.append('time_slot',wizState.slot);fd.append('sms_optin',wizState.sms?'yes':'no');fd.append('referral',wizState.referral);fd.append('source_page','Carefree Landing Page');fetch('https://formsubmit.co/info@actionappliancerepairaz.com',{method:'POST',body:fd,headers:{'Accept':'application/json'}}).catch(function(){});wizShowStep(5);}
+    function wizSubmit(){var fields=['wiz-fname','wiz-lname','wiz-address','wiz-email','wiz-phone'];var valid=true;fields.forEach(function(id){var el=document.getElementById(id);if(!el.value.trim()){wizFlash(el);valid=false;}});if(!valid)return;var em=document.getElementById('wiz-email');if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em.value.trim())){wizFlash(em);return;}wizState.fname=document.getElementById('wiz-fname').value.trim();wizState.lname=document.getElementById('wiz-lname').value.trim();wizState.address=document.getElementById('wiz-address').value.trim();wizState.email=em.value.trim();wizState.phone=document.getElementById('wiz-phone').value.trim();wizState.sms=document.getElementById('wiz-sms').checked;var dateObj=new Date(wizState.date+'T12:00:00');var niceDate=dateObj.toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric',year:'numeric'});document.getElementById('wiz-summary').innerHTML='<strong>Name:</strong> '+wizState.fname+' '+wizState.lname+'<br>'+'<strong>Address:</strong> '+wizState.address+'<br>'+'<strong>Phone:</strong> '+wizState.phone+'<br>'+'<strong>Email:</strong> '+wizState.email+'<br><br>'+'<strong>Appliance:</strong> '+wizState.appliance+(wizState.brand?' ('+wizState.brand+')':'')+'<br>'+(wizState.desc?'<strong>Issue:</strong> '+wizState.desc+'<br>':'')+'<br><strong>Date:</strong> '+niceDate+'<br>'+'<strong>Time:</strong> '+wizState.slot;var fd=new FormData();fd.append('_subject','New Booking from Website Wizard');fd.append('_captcha','false');fd.append('first_name',wizState.fname);fd.append('last_name',wizState.lname);fd.append('phone',wizState.phone);fd.append('email',wizState.email);fd.append('address',wizState.address);fd.append('zip',wizState.zip);fd.append('appliance',wizState.appliance);fd.append('brand',wizState.brand);fd.append('issue',wizState.desc);fd.append('date',wizState.date);fd.append('time_slot',wizState.slot);fd.append('sms_optin',wizState.sms?'yes':'no');fd.append('referral',wizState.referral);fd.append('source_page','Carefree Landing Page');fetch('https://formsubmit.co/actionappliancefix@gmail.com',{method:'POST',body:fd,headers:{'Accept':'application/json'}}).catch(function(){});wizShowStep(5);}
     document.addEventListener('keydown',function(e){if(e.key==='Escape')closeBookingModal();});
     document.querySelectorAll('a[href="#booking"],.book-trigger').forEach(function(el){el.addEventListener('click',openBookingModal);});
 
