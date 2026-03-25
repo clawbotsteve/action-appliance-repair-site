@@ -93,6 +93,19 @@
         .topbar { background: var(--red); color: #fff; font-size: 0.8rem; padding: 6px 0; } .topbar .container { display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; } .topbar a { color: #fff; } .topbar-left { display: flex; align-items: center; gap: 6px; } .topbar-right { display: flex; gap: 16px; } .topbar-right a { display: flex; align-items: center; gap: 4px; } .topbar-right a:hover { color: var(--navy); }
         .header { background: var(--white); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 50; } .header .container { display: flex; align-items: center; justify-content: space-between; padding-top: 12px; padding-bottom: 12px; } .logo { display: flex; align-items: center; gap: 10px; } .logo-icon { width: 42px; height: 42px; border-radius: 8px; flex-shrink: 0; overflow: hidden; } .logo-icon img { width: 100%; height: 100%; object-fit: contain; } .logo-text { font-weight: 800; font-size: 1.1rem; color: var(--navy); line-height: 1.2; } .logo-sub { font-size: 0.72rem; color: var(--text-light); font-weight: 500; } .header-right { display: flex; align-items: center; gap: 16px; } .header-phone { font-weight: 800; font-size: 1.25rem; color: var(--navy); letter-spacing: -0.3px; white-space: nowrap; } .header-phone:hover { color: var(--red); } .header-cta { background: var(--red); color: #fff; padding: 10px 20px; border-radius: 8px; font-weight: 700; font-size: 0.88rem; white-space: nowrap; transition: background 0.2s; } .header-cta:hover { background: var(--red-hover); }
         .nav { background: var(--white); border-bottom: 1px solid var(--border); } .nav .container { display: flex; align-items: center; justify-content: space-between; } .nav-links { list-style: none; display: flex; gap: 0; } .nav-links a { display: block; color: var(--navy); padding: 14px 16px; font-weight: 600; font-size: 0.88rem; transition: color 0.2s; } .nav-links a:hover { color: var(--red); } .menu-toggle { display: none; background: none; border: 1px solid var(--border); color: var(--navy); padding: 8px 14px; border-radius: 6px; font-size: 0.9rem; font-weight: 600; cursor: pointer; }
+
+        .nav-links > li { position: relative; }
+        .nav-links > li > a .arrow { font-size: 0.6rem; transition: transform 0.2s; }
+        .dropdown { display: none; position: absolute; top: 100%; left: 0; min-width: 280px; background: var(--white, #fff); border: 1px solid var(--border, #e5e7eb); border-radius: var(--radius, 8px); box-shadow: var(--shadow-lg, 0 10px 40px rgba(0,0,0,0.1)); padding: 12px 0; z-index: 60; }
+        .dropdown.dropdown-wide { min-width: 360px; }
+        .dropdown-item { display: block; padding: 10px 20px; color: var(--text, #475569); font-size: 0.85rem; font-weight: 500; transition: background 0.15s; text-decoration: none; }
+        .dropdown-item:hover { background: var(--bg, #f8fafc); color: var(--red, #C41230); }
+        .dropdown-item strong { display: block; font-weight: 700; color: var(--navy, #1B2A4A); font-size: 0.88rem; margin-bottom: 2px; }
+        .dropdown-item span { color: var(--text-light, #94a3b8); font-size: 0.78rem; }
+        .dropdown-divider { height: 1px; background: var(--border, #e5e7eb); margin: 6px 0; }
+        .dropdown-heading { padding: 8px 20px 4px; font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-light, #94a3b8); }
+        .dropdown-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0; padding: 0; }
+        .dropdown-grid .dropdown-item { padding: 8px 16px; font-size: 0.82rem; }
         .hero { background: var(--bg); color: var(--text); padding: 56px 0 48px; position: relative; overflow: hidden; } .hero .container { position: relative; z-index: 1; max-width: 800px; } .hero-badge { display: inline-flex; align-items: center; gap: 6px; background: rgba(196,18,48,0.08); border: 1px solid rgba(196,18,48,0.15); padding: 6px 14px; border-radius: 999px; font-size: 0.78rem; font-weight: 600; margin-bottom: 16px; color: var(--red); } .hero-badge-dot { width: 6px; height: 6px; background: var(--red); border-radius: 50%; } .hero h1 { font-size: 2.4rem; font-weight: 900; line-height: 1.12; margin-bottom: 16px; letter-spacing: -0.5px; color: var(--navy); } .hero h1 span { color: var(--red); } .hero-sub { font-size: 1.05rem; color: var(--text-light); margin-bottom: 24px; line-height: 1.6; } .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 28px; } .btn { display: inline-flex; align-items: center; gap: 8px; padding: 14px 24px; border-radius: 8px; font-weight: 700; font-size: 0.92rem; border: none; cursor: pointer; transition: all 0.2s; } .btn-red { background: var(--red); color: #fff; } .btn-red:hover { background: var(--red-hover); transform: translateY(-1px); box-shadow: 0 4px 14px rgba(196,18,48,0.35); } .btn-white { background: var(--white); color: var(--navy); border: 1px solid var(--border); } .btn-white:hover { background: var(--navy); color: #fff; border-color: var(--navy); } .hero-stats { display: flex; gap: 32px; padding-top: 24px; border-top: 1px solid var(--border); } .hero-stat-num { font-size: 1.5rem; font-weight: 900; color: var(--navy); } .hero-stat-label { font-size: 0.78rem; color: var(--text-light); }
         section { padding: 56px 0; } .section-header { text-align: center; margin-bottom: 36px; } .section-header h2 { font-size: 1.75rem; font-weight: 800; color: var(--navy); margin-bottom: 8px; } .section-header p { color: var(--text-light); font-size: 1rem; max-width: 560px; margin: 0 auto; }
         .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; } a.service-link { display: block; text-decoration: none; color: inherit; } .service-card { background: #fff; border: 1px solid var(--border); border-top: 3px solid var(--border); border-radius: var(--radius); padding: 24px; transition: all 0.2s; } .service-card:hover { border-color: var(--red); border-top-color: var(--red); box-shadow: var(--shadow); } .service-icon { width: 44px; height: 44px; margin-bottom: 14px; background: rgba(196,18,48,0.06); border-radius: 10px; display: flex; align-items: center; justify-content: center; } .service-icon svg { width: 24px; height: 24px; stroke: var(--red); fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; } .service-card h3 { font-size: 1.05rem; font-weight: 700; color: var(--navy); margin-bottom: 6px; } .service-card p { font-size: 0.88rem; color: var(--text-light); line-height: 1.5; }
@@ -117,14 +130,137 @@
         @media (max-width: 767px) { .topbar { display: none; } .header-phone { display: none; } .nav-links { display: none; flex-direction: column; width: 100%; background: var(--white); } .nav-links.open { display: flex; } .menu-toggle { display: block; } .nav .container { flex-wrap: wrap; padding-top: 8px; padding-bottom: 8px; } .hero { padding: 36px 0 32px; } .hero h1 { font-size: 1.65rem; } .hero-stats { gap: 20px; } .hero-stat-num { font-size: 1.2rem; } .services-grid { grid-template-columns: 1fr; } .trust-grid { grid-template-columns: 1fr; } .footer-grid { grid-template-columns: 1fr; } .mobile-cta { display: block; } body { padding-bottom: 56px; } section { padding: 40px 0; } }
         @media (max-width: 768px) { .booking-modal { margin: 0; border-radius: 0; max-height: 100vh; height: 100vh; max-width: 100%; } .wiz-container { max-height: calc(100vh - 100px); } .wiz-app-grid { grid-template-columns: repeat(3, 1fr); } .wiz-split { grid-template-columns: 1fr; } .wiz-slots { flex-direction: column; } }
         @media (max-width: 480px) { .wiz-container { padding: 20px; } .wiz-app-grid { grid-template-columns: repeat(2, 1fr); } }
-        @media(max-width:767px){ #areas .container > div { grid-template-columns: 1fr !important; } }
+        @media(max-width:767px){
+            .dropdown { position: static; min-width: 100%; border: none; border-radius: 0; box-shadow: none; background: var(--bg, #f8fafc); padding: 4px 0; }
+            .dropdown.open { display: block; }
+            .dropdown-grid { grid-template-columns: 1fr; }
+            .dropdown-item { padding: 8px 32px; }
+            .dropdown-heading { padding: 8px 32px 4px; } #areas .container > div { grid-template-columns: 1fr !important; } }
     </style>
 </head>
 <body>
 <div class="topbar"><div class="container"><div class="topbar-left">Serving Buckeye &amp; Phoenix Metro &bull; Mon&ndash;Sat Same-Day/Next-Day</div><div class="topbar-right"><a href="tel:+14807168855">&#9742; (480) 716-8855</a><a href="mailto:info@actionappliancerepairaz.com">&#9993; Email Us</a></div></div></div>
 <header class="header"><div class="container"><a href="/index.html" class="logo"><div class="logo-icon"><img src="/logo.png" alt="Action Appliance Repair logo" width="42" height="42"></div><div><div class="logo-text">Action Appliance Repair</div><div class="logo-sub">Phoenix Metro Appliance Service</div></div></a><div class="header-right"><a href="tel:+14807168855" class="header-phone">(480) 716-8855</a><a href="#booking" class="header-cta">Book Online</a></div></div></header>
-<nav class="nav"><div class="container"><button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks">&#9776; Menu</button><ul class="nav-links" id="navLinks"><li><a href="/index.html">Home</a></li>
-            <li><a href="/index.html#services">Services</a></li><li><a href="/index.html#brands">Brands</a></li><li><a href="/index.html#how-it-works">How It Works</a></li><li><a href="/index.html#areas">Service Areas</a></li><li><a href="/index.html#faq">FAQ</a></li></ul></div></nav>
+<nav class="nav">
+    <div class="container">
+        <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks">&#9776; Menu</button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="/index.html">Home</a></li>
+            <li>
+                <a href="/index.html#services">Services <span class="arrow">&#9660;</span></a>
+                <div class="dropdown">
+                    <a class="dropdown-item" href="/services/dishwasher-repair.html"><strong>Dishwasher Repair &amp; Service</strong><span>Leaks, drainage, cleaning issues</span></a>
+                    <a class="dropdown-item" href="/services/refrigerator-freezer-repair.html"><strong>Refrigerator Repair &amp; Service</strong><span>Cooling, leaks, compressor, ice buildup</span></a>
+                    <a class="dropdown-item" href="/services/dryer-repair.html"><strong>Dryer Repair &amp; Service</strong><span>No heat, long cycles, gas &amp; electric</span></a>
+                    <a class="dropdown-item" href="/services/oven-repair.html"><strong>Oven Repair &amp; Service</strong><span>Not heating, uneven temp, igniter issues</span></a>
+                    <a class="dropdown-item" href="/services/stove-top-repair.html"><strong>Stove Top Repair &amp; Service</strong><span>Burners, flames, gas &amp; electric coils</span></a>
+                    <a class="dropdown-item" href="/services/cooktop-repair.html"><strong>Cooktop Repair &amp; Service</strong><span>Induction, ceramic, glass top repairs</span></a>
+                    <a class="dropdown-item" href="/services/washer-repair.html"><strong>Washer Repair &amp; Service</strong><span>Drain, spin, fill, leak &amp; error codes</span></a>
+                    <a class="dropdown-item" href="/services/range-repair.html"><strong>Range Repair &amp; Service</strong><span>Gas, electric &amp; dual fuel ranges</span></a>
+                    <a class="dropdown-item" href="/services/ice-maker-wine-cooler-repair.html"><strong>Ice Maker Repair &amp; Service</strong><span>Temperature, water line, buildup</span></a>
+                    <a class="dropdown-item" href="/services/appliance-maintenance.html"><strong>Appliance Maintenance Services</strong><span>Preventive care, tune-ups &amp; inspections</span></a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="/index.html#booking" style="color:var(--red);font-weight:700;">Book a Repair &rarr;</a>
+                </div>
+            </li>
+            <li>
+                <a href="/index.html#brands">Brands <span class="arrow">&#9660;</span></a>
+                <div class="dropdown dropdown-wide">
+                    <div class="dropdown-heading">Premium Brands</div>
+                    <div class="dropdown-grid">
+                        <a class="dropdown-item" href="/brands/sub-zero-repair.html">Sub-Zero</a>
+                        <a class="dropdown-item" href="/brands/viking-repair.html">Viking</a>
+                        <a class="dropdown-item" href="/brands/thermador-repair.html">Thermador</a>
+                        <a class="dropdown-item" href="/brands/wolf-repair.html">Wolf</a>
+                        <a class="dropdown-item" href="/brands/miele-repair.html">Miele</a>
+                        <a class="dropdown-item" href="/brands/dacor-repair.html">Dacor</a>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <div class="dropdown-heading">Major Brands</div>
+                    <div class="dropdown-grid">
+                        <a class="dropdown-item" href="/brands/samsung-repair.html">Samsung</a>
+                        <a class="dropdown-item" href="/brands/lg-repair.html">LG</a>
+                        <a class="dropdown-item" href="/brands/whirlpool-repair.html">Whirlpool</a>
+                        <a class="dropdown-item" href="/brands/ge-monogram-repair.html">GE / Monogram</a>
+                        <a class="dropdown-item" href="/brands/kitchenaid-repair.html">KitchenAid</a>
+                        <a class="dropdown-item" href="/brands/bosch-repair.html">Bosch</a>
+                        <a class="dropdown-item" href="/brands/maytag-repair.html">Maytag</a>
+                        <a class="dropdown-item" href="/brands/frigidaire-repair.html">Frigidaire</a>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="/brands/index.html" style="color:var(--red);font-weight:700;">See All 25 Brands &rarr;</a>
+                </div>
+            </li>
+            <li>
+                <a href="/index.html#how-it-works">How It Works <span class="arrow">&#9660;</span></a>
+                <div class="dropdown">
+                    <a class="dropdown-item" href="/index.html#how-it-works"><strong>Step 1: Book Online or Call</strong><span>Fill out our form or call (480) 716-8855</span></a>
+                    <a class="dropdown-item" href="/index.html#how-it-works"><strong>Step 2: We Diagnose It</strong><span>Same-day visit, clear quote on the spot</span></a>
+                    <a class="dropdown-item" href="/index.html#how-it-works"><strong>Step 3: We Fix It</strong><span>Approve & we repair. $65 diagnostic waived</span></a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="/index.html#booking" style="color:var(--red);font-weight:700;">Get Started &rarr;</a>
+                </div>
+            </li>
+            <li>
+                <a href="/index.html#areas">Service Areas <span class="arrow">&#9660;</span></a>
+                <div class="dropdown dropdown-wide">
+                    <div class="dropdown-heading">Phoenix Metro Cities</div>
+                    <div class="dropdown-grid">
+                        <a class="dropdown-item" href="/areas/phoenix.html">Phoenix</a>
+                        <a class="dropdown-item" href="/areas/scottsdale.html">Scottsdale</a>
+                        <a class="dropdown-item" href="/areas/tempe.html">Tempe</a>
+                        <a class="dropdown-item" href="/areas/mesa.html">Mesa</a>
+                        <a class="dropdown-item" href="/areas/chandler.html">Chandler</a>
+                        <a class="dropdown-item" href="/areas/gilbert.html">Gilbert</a>
+                        <a class="dropdown-item" href="/areas/glendale.html">Glendale</a>
+                        <a class="dropdown-item" href="/areas/peoria.html">Peoria</a>
+                        <a class="dropdown-item" href="/areas/goodyear.html">Goodyear</a>
+                        <a class="dropdown-item" href="/areas/surprise.html">Surprise</a>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="/areas/index.html" style="color:var(--red);font-weight:700;">See All 20 Cities &rarr;</a>
+                </div>
+            </li>
+            <li>
+                <a href="/index.html#warranty">Warranty <span class="arrow">&#9660;</span></a>
+                <div class="dropdown">
+                    <a class="dropdown-item" href="/index.html#warranty"><strong>Up to 1-Year Warranty</strong><span>Parts & labor covered on all repairs</span></a>
+                    <a class="dropdown-item" href="/index.html#warranty"><strong>Home Warranty Partners</strong><span>We work with major warranty companies</span></a>
+                    <a class="dropdown-item" href="/index.html#warranty"><strong>COD & Retail Service</strong><span>Direct payment with transparent pricing</span></a>
+                </div>
+            </li>
+            <li>
+                <a href="/completed-jobs/index.html">Our Work <span class="arrow">&#9660;</span></a>
+                <div class="dropdown">
+                    <a class="dropdown-item" href="/completed-jobs/index.html"><strong>Completed Repairs</strong><span>Browse our recent jobs &amp; results</span></a>
+                    <a class="dropdown-item" href="/completed-jobs/sub-zero-refrigerator-repair-scottsdale-az.html"><strong>Sub-Zero Repair, Scottsdale</strong><span>Sealed system repair</span></a>
+                    <a class="dropdown-item" href="/completed-jobs/viking-range-repair-paradise-valley-az.html"><strong>Viking Range, Paradise Valley</strong><span>Igniter replacement</span></a>
+                    <a class="dropdown-item" href="/completed-jobs/samsung-washer-repair-mesa-az.html"><strong>Samsung Washer, Mesa</strong><span>Drain pump replacement</span></a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="/completed-jobs/index.html" style="color:var(--red);font-weight:700;">See All Completed Jobs &rarr;</a>
+                </div>
+            </li>
+            <li>
+                <a href="/index.html#faq">FAQ <span class="arrow">&#9660;</span></a>
+                <div class="dropdown">
+                    <a class="dropdown-item" href="/index.html#faq"><strong>How much does repair cost?</strong><span>$65 diagnostic, waived with repair</span></a>
+                    <a class="dropdown-item" href="/index.html#faq"><strong>Do you offer same-day service?</strong><span>Yes, Mon&ndash;Sat availability</span></a>
+                    <a class="dropdown-item" href="/index.html#faq"><strong>What brands do you service?</strong><span>24+ major & premium brands</span></a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="/index.html#faq" style="color:var(--red);font-weight:700;">View All FAQs &rarr;</a>
+                </div>
+            </li>
+            <li>
+                <a href="/contact.html">Contact <span class="arrow">&#9660;</span></a>
+                <div class="dropdown">
+                    <a class="dropdown-item" href="tel:+14807168855"><strong>Call Us</strong><span>(480) 716-8855</span></a>
+                    <a class="dropdown-item" href="/index.html#booking"><strong>Book Online</strong><span>Fill out our service request form</span></a>
+                    <a class="dropdown-item" href="/contact.html"><strong>Contact Page</strong><span>Email, hours & service info</span></a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
 
 <section class="hero"><div class="container">
     <div class="hero-badge"><span class="hero-badge-dot"></span> Buckeye Appliance Service</div>
@@ -301,5 +437,18 @@ document.querySelectorAll('.faq-q').forEach(function(btn){btn.addEventListener('
         <svg viewBox="0 0 24 24"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 0 0-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/></svg>
     </a>
 </div>
+<script>
+// Dropdown toggle for mobile
+document.querySelectorAll('.nav-links > li > a').forEach(function(link) {
+    link.addEventListener('click', function(e) {
+        var dd = this.nextElementSibling;
+        if (dd && dd.classList.contains('dropdown') && window.innerWidth < 1024) {
+            e.preventDefault();
+            var wasOpen = dd.classList.contains('open');
+            document.querySelectorAll('.dropdown.open').forEach(function(d) { d.classList.remove('open'); });
+            if (!wasOpen) dd.classList.add('open');
+        }
+    });
+});</script>
 </body>
 </html>
